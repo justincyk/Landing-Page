@@ -1,9 +1,10 @@
 body {
   display: flex;
   flex-direction: column;
-  padding: 0 165px;
+  /* padding: 0 165px; */
   background-color: #1F2937;
   color: #E5E7EB;
+  margin: 0 0;
 }
 
 h1 {
@@ -14,6 +15,7 @@ h1 {
   display: flex;
   justify-content: space-between;
   margin: 0;
+  padding: 10px 160px;
 }
 
 .header ul {
@@ -34,7 +36,7 @@ h1 {
 }
 
 .top {
-  background-color: white;
+  /* background-color: white; */
   padding: 30px;
   display: flex;
   justify-content: center;
@@ -51,6 +53,12 @@ h1 {
 .top img {
   width: 350px;
   height: auto;
+
+}
+
+.middle h1 {
+  font-size: 24px;
+  margin-bottom: 30px;
 }
 
 .left {
@@ -60,12 +68,14 @@ h1 {
 }
 
 .middle {
+  background-color: white;
+  color: black;
   flex: 1;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 30px;
+  padding: 20px 160px;
 }
 
 .random_images {
@@ -77,8 +87,11 @@ h1 {
 }
 
 .bottom {
-  font-size: 20px;
-  padding: 30px;
+  background-color: #E5E7EB;
+  font-size: 36px;
+  font-weight:bolder;
+  color: #1F2937;
+  padding: 30px 160px;
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
@@ -93,15 +106,30 @@ h1 {
 }
 
 .below {
-  padding: 30px;
+  font-size: 14px;
+  font-weight: bolder;
+  color: #1F2937;
+  background-color:white;
+  padding: 30px 160px;
   flex: 1;
   display: flex;
   justify-content: space-evenly;
 }
 
+.content {
+  display: flex;
+  justify-content: space-around;
+  border: blue solid 1px;
+  border-radius: 25px;
+  padding: 0;
+  width: 600px;
+}
+
 .card img {
   width: 200px;
   height: auto;
+  border: blue solid 1px;
+  border-radius: 25px;
 }
 
 .footer {
